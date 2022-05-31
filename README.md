@@ -42,32 +42,32 @@ https://github.com/viritaromero/Detecting-Depression-in-Tweets/blob/master/Depre
 
 Datasets
 
-I generated a new dataset, combining part of the Sentiment140 (8,000 positive tweets), and another one for depressive tweets (2,314 tweets), with a total of 10,314 tweets. You can find this dataset in my repo.
+i generated a new dataset, combining part of the sentiment140 (8,000 positive tweets), and another one for depressive tweets (2,314 tweets), with a total of 10,314 tweets. you can find this dataset in my repo.
 
-Sentiment140
+sentiment140
 
-The Sentiment140 dataset contains 1,600,000 tweets extracted using the twitter API. The tweets have been annotated (0 = negative, 2 = neutral, 4 = positive) and they can be used to detect sentiment. It contains the following 6 fields:
+the sentiment140 dataset contains 1,600,000 tweets extracted using the twitter api. the tweets have been annotated (0 = negative, 2 = neutral, 4 = positive) and they can be used to detect sentiment. it contains the following 6 fields:
 
     target: the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
-    ids: The id of the tweet ( 2087)
-    date: the date of the tweet (Sat May 16 23:58:44 UTC 2009)
-    flag: The query (lyx). If there is no query, then this value is NO_QUERY.
+    ids: the id of the tweet ( 2087)
+    date: the date of the tweet (sat may 16 23:58:44 utc 2009)
+    flag: the query (lyx). if there is no query, then this value is no_query.
     user: the user that tweeted (robotickilldozr)
-    text: the text of the tweet (Lyx is cool)
+    text: the text of the tweet (lyx is cool)
 
-You can find the dataset here:
+you can find the dataset here:
 
 https://www.kaggle.com/kazanova/sentiment140
 
-For my experiment, I just took a sample of 8,000 tweets with polarity of 4, the positive ones.
+for my experiment, i just took a sample of 8,000 tweets with polarity of 4, the positive ones.
 
-Web scraping depressive Tweets with TWINT
+web scraping depressive tweets with twint
 
-I didn’t find good quality and labeled datasets containing depressive tweets and some projects using a good dataset didn’t share the link due to privacy concerns.
+i didn’t find good quality and labeled datasets containing depressive tweets and some projects using a good dataset didn’t share the link due to privacy concerns.
 
-Lucky me, found Twint, an advanced Twitter scraping tool written in Python that doesn’t use Twitter’s API, allowing you to scrape a user’s followers, following, Tweets and more while evading most API limitations.
+lucky me, found twint, an advanced twitter scraping tool written in python that doesn’t use twitter’s api, allowing you to scrape a user’s followers, following, tweets and more while evading most api limitations.
 
-You can find the tool here:
+you can find the tool here:
 
 https://github.com/twintproject/twint
 
